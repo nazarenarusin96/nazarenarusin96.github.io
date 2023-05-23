@@ -19,6 +19,18 @@ header {
 .titulo{
   font-size: 35px;
 }
+#inicio{
+  padding: 220px;
+}
+#exp{
+  padding: 270px;
+}
+#skills{
+  padding: 100px;
+}
+#contacto{
+  padding: 220px;
+}
 
 nav {
   background-color: #bca792;
