@@ -6,16 +6,17 @@
 
 body {
   font-family: Arial, sans-serif;
+  background-color: #f5e7db;
 }
 
 header {
-  background-color: #333;
+  background-color: #bca792;
   color: #fff;
   padding: 20px;
 }
 
 nav {
-  background-color: #666;
+  background-color: #bca792;
   padding: 10px;
 }
 
@@ -53,7 +54,6 @@ footer {
 }
 
 .letra {
-    color: red;
-    font-family: Arial, sans-serif;
+    color: #806d59;
   }
   
