@@ -26,15 +26,14 @@ header {
   padding: 270px;
 }
 #skills{
-  padding: 100px;
+  padding: 150px;
 }
 #contacto{
-  padding: 220px;
+  padding: 270px;
 }
 
 nav {
   background-color: #bca792;
-  padding: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -55,6 +54,30 @@ nav ul li a {
   font-size: 20px;
 }
 
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li {
+  margin-right: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+}
+
 section {
   padding: 20px;
 }
@@ -71,6 +94,14 @@ section h2 {
   font-size:25px;
 }
 
+a:link{
+  text-decoration: none;
+}
+
+a{
+  color: black;
+}
+
 footer {
   background-color: #bca792;
   color: #fff;
@@ -80,20 +111,6 @@ footer {
 
 .letra {
     color: #806d59;
-  }
-  
-  .nav-links {
-    list-style: none;
-    display: flex;
-  }
-  
-  .nav-links li {
-    padding: 0 10px;
-  }
-  
-  .nav-links a {
-    color: #fff;
-    text-decoration: none;
   }
   
   .maquina {
@@ -117,6 +134,11 @@ footer {
 }
 
 .titulo-exp{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.titulo-contacto{
   text-align: center;
   margin-top: 30px;
 }
