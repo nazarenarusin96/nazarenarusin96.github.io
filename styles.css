@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
@@ -15,6 +14,10 @@ header {
   background-color: #bca792;
   color: #fff;
   padding: 20px;
+}
+
+.titulo{
+  font-size: 35px;
 }
 
 nav {
@@ -37,6 +40,7 @@ nav ul li {
 nav ul li a {
   color: #fff;
   text-decoration: none;
+  font-size: 20px;
 }
 
 section {
@@ -51,8 +55,12 @@ section h2 {
   margin-bottom: 20px;
 }
 
+.desc{
+  font-size:25px;
+}
+
 footer {
-  background-color: #333;
+  background-color: #bca792;
   color: #fff;
   padding: 10px;
   text-align: center;
@@ -79,11 +87,11 @@ footer {
   .maquina {
     font-size: xx-large;
     display: block;
-    font-family: monospace;
-    white-space: nowrap; /* los espacios en blanco no rompen la línea */        
-    width: 35ch; /* el ancho será el número de caracteres que tiene nuestra línea */
+    white-space: nowrap;
+    width: 35ch;
     animation: escribiendo 2s steps(25);          
     overflow: hidden;
+    font-size: 50px;
   }
   
   span{
